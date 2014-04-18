@@ -9,3 +9,5 @@ README.md
 dist.ini
 lib/Akamai/Open/DiagnosticTools.pm
 t/0003-diagnostictools.t
+t/release-no-tabs.t
+t/release-pod-syntax.t

@@ -31,9 +31,10 @@ my %WriteMakefileArgs = (
   },
   "TEST_REQUIRES" => {
     "Akamai::Open::Client" => 0,
-    "Test::More" => 0
+    "Test::More" => 0,
+    "Test::Pod" => "1.41"
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,6 +47,7 @@ my %FallbackPrereqs = (
   "JSON" => 0,
   "Moose" => 0,
   "Test::More" => 0,
+  "Test::Pod" => "1.41",
   "constant" => 0,
   "strict" => 0,
   "warnings" => 0

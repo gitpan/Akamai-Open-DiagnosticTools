@@ -19,6 +19,13 @@
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
+      "develop" : {
+         "requires" : {
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41"
+         }
+      },
       "runtime" : {
          "requires" : {
             "Akamai::Open::Client" : "0",
@@ -34,7 +41,8 @@
       "test" : {
          "requires" : {
             "Akamai::Open::Client" : "0",
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "Test::Pod" : "1.41"
          }
       }
    },
@@ -46,6 +54,7 @@
          "web" : "https://github.com/MegaMaddin/akamai-open-diagnostictools-perl"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02",
+   "x_authority" : "cpan:PROBST"
 }
 

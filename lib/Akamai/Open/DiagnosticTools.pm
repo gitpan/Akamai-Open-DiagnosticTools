@@ -1,13 +1,9 @@
 package Akamai::Open::DiagnosticTools;
-
 BEGIN {
-    $Akamai::Open::DiagnosticTools::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::DiagnosticTools::VERSION = '0.01';
+  $Akamai::Open::DiagnosticTools::AUTHORITY = 'cpan:PROBST';
 }
 # ABSTRACT: The Akamai Open DiagnosticTools API Perl client
-
+$Akamai::Open::DiagnosticTools::VERSION = '0.02';
 use strict;
 use warnings;
 use v5.10;
@@ -224,6 +220,10 @@ __END__
 
 Akamai::Open::DiagnosticTools - The Akamai Open DiagnosticTools API Perl client
 
+=head1 VERSION
+
+version 0.02
+
 =head1 SYNOPSIS
 
  use Akamai::Open::Client;
@@ -413,4 +413,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
